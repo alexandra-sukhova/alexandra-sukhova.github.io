@@ -1,0 +1,30 @@
+.right-title {
+    text-align: right;
+}
+
+.blocknote-head {
+    background-image: url("img/blocknote.png");
+    background-repeat: repeat-x;
+    height: 80px;
+}
+
+.blocknote-body {
+    background-color: #faf9f5;
+    min-height: 700px;
+}
+
+.dialog {
+    width: 200px;
+    background-repeat: no-repeat;
+    background-image: url("img/dialog.png");
+    height: 150px;
+    margin: inherit;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 22pt;
+    font-weight:bold;
+}
+
+.ramka {
+    border: solid 8px black;
+}
