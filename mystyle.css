@@ -28,3 +28,17 @@
 .ramka {
     border: solid 8px black;
 }
+
+.otstup {
+    padding-left: 75px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.mywords {
+    font-size: 25pt;
+}
+
+.otstuptext {
+    padding-top: 200px;
+}
