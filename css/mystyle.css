@@ -14,14 +14,14 @@
 }
 
 .dialog {
-    width: 200px;
+    width: 133px;
     background-repeat: no-repeat;
     background-image: url("../img/dialog.png");
-    height: 150px;
+    height: 100px;
     margin: inherit;
-    padding-top: 50px;
+    padding-top: 35px;
     text-align: center;
-    font-size: 22pt;
+    font-size: 16pt;
     font-weight:bold;
 }
 
@@ -41,4 +41,17 @@
 
 .otstuptext {
     padding-top: 200px;
+}
+
+.otstup-contacts {
+    padding-top: 10px;
+}
+
+.otstup-block {
+    vertical-align: middle;
+    padding-top: 150px;
+}
+.blockright {
+    padding-left: 60px;
+
 }
