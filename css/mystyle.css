@@ -65,7 +65,7 @@
     width: 100%;
 }
 
-.carousel-padding {
+.leftright-padding {
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -77,4 +77,16 @@
 .carousel {
     width: 100%;
     margin: 0 auto;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.center-picture {
+    height: 350px;
 }
