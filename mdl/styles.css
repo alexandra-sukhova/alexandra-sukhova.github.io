@@ -131,7 +131,7 @@ body .alexandra-web {
   order: -1;
 }
 .alexandra-web .tigra .mdl-card__media {
-  background-image: url('images/tigra.png');
+  background-image: url('images/portret.jpg');
   min-height: 600px;
 }
 .alexandra-web .something-else .mdl-card__media {
@@ -163,10 +163,12 @@ body .alexandra-web {
   border-bottom-right-radius: 2px;
 }
 .alexandra-web .on-the-road-again .mdl-card__media {
-  background-image: url('images/tailand.jpg');
+  background-image: url('images/krasky.jpg');
+   min-height: 400px;
 }
 .alexandra-web .shopping .mdl-card__media {
   background-image: url('images/vistavki.jpg');
+  min-height: 350px;
 }
 .alexandra-web .alexandra-web__posts > .demo-nav {
   margin: 12px 15px;
@@ -381,3 +383,4 @@ body .alexandra-web {
   background-color: white;
   box-sizing: border-box;
 }
+
