@@ -95,3 +95,14 @@ a:hover {
 .center-picture {
     height: 350px;
 }
+
+
+#footer {
+    height: 80px;
+    background: #808080 none repeat scroll 0% 0%;
+    text-align: center;
+    font-size: 35px;
+}
+.clear {
+    clear: both;
+}
