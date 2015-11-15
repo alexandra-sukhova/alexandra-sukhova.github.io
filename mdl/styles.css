@@ -221,7 +221,7 @@ body .alexandra-web {
 .alexandra-web--blogpost .alexandra-web__posts > .mdl-card .mdl-card__media {
   background-image: url('images/tvorcheckyi.jpg');
   height: 280px;
-  min-height: 530px;
+  min-height: 700px;
 }
 .alexandra-web--blogpost .comments {
   background-color: #EEE;
