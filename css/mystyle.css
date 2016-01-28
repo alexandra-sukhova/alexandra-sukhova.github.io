@@ -22,7 +22,7 @@
     padding-top: 35px;
     text-align: center;
     font-size: 16pt;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .ramka {
@@ -96,14 +96,13 @@ a:hover {
     color: black;
 }
 
-
-
 #footer {
     height: 80px;
     background: #808080 none repeat scroll 0% 0%;
     text-align: center;
     font-size: 35px;
 }
+
 .clear {
     clear: both;
 }
