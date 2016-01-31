@@ -3,7 +3,7 @@
 }
 
 .blocknote-head {
-    background-image: url("../img/blocknote.png");
+    background-image: url("../img/thumbnails/blocknote.png");
     background-repeat: repeat-x;
     height: 80px;
 }
@@ -16,7 +16,7 @@
 .dialog {
     width: 133px;
     background-repeat: no-repeat;
-    background-image: url("../img/dialog.png");
+    background-image: url("../img/thumbnails/dialog.png");
     height: 100px;
     margin: inherit;
     padding-top: 35px;
