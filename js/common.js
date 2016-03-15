@@ -2,7 +2,7 @@ $(document).ready(function () {
     var imageArray = [],
         imageThumbnailsArray = [];
 
-    function preloadInner(imageArray, index) {
+    var preloadInner = function (imageArray, index) {
         index = index || 0;
         if (imageArray && imageArray.length > index) {
             var img = new Image();
@@ -11,12 +11,12 @@ $(document).ready(function () {
             };
             img.src = imageArray[index];
         }
-    }
+    };
 
     $('img.img-thumbnail').each(function () { imageThumbnailsArray.push($(this).attr('src')); });
     $('a[data-lightbox]').each(function () { imageArray.push($(this).attr('href')); });
 
-    preloadInner(imageArray);
     preloadInner(imageThumbnailsArray);
+    preloadInner(imageArray);
 
 });
