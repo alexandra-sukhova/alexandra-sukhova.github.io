@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="css/zocial.css">
     <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/lightbox.css">
 </head>
 <body>
 <div class="container">
@@ -49,7 +50,9 @@
 
                 <div class="row otstup-after-menu">
                     <div class="col-md-6 otstup">
-                        <img src="img/aboutme.png" class="img-responsive img-thumbnail"/>
+                        <a href="img/aboutme.png" data-lightbox="index">
+                            <img src="img/thumbnails/aboutme.png" class="img-responsive img-thumbnail"/>
+                        </a>
                     </div>
                     <div class="col-md-6 otstup mywords otstuptext">
 
@@ -72,10 +75,8 @@
 
     </div>
 
-    <div id="footer " class="clear ramka2 page-header jumbotron text-center">
-
-        <h3 class="center-title"><i>2015-2016</i></h3>
-
+    <div id="footer" class="clear ramka2 page-header jumbotron text-center">
+        <h3 class="center-title"><i>&copy; 2015-2016, Alexandra Sukhova</i></h3>
     </div>
 
 
@@ -85,5 +86,6 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/common.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/lightbox.min.js"></script>
 </body>
 </html>
