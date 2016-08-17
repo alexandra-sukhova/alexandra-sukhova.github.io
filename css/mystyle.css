@@ -26,11 +26,11 @@
 }
 
 .ramka {
-    border: solid 8px black;
+/*    border: solid 8px black; */
 }
 
 .ramka2 {
-    border: solid 1px black;
+    /* border: solid 1px black; */
     padding-top: 5px;
     padding-bottom: 10px;
 }
@@ -51,6 +51,7 @@
 
 .otstup-after-menu {
     padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 .otstup-block {
@@ -106,4 +107,12 @@ a:hover {
 
 .clear {
     clear: both;
+}
+
+body {
+    background-image: url(../img/white.png);
+}
+
+div.portfolio > div.col-md-4 > a > img {
+    margin-bottom: 20px;
 }
