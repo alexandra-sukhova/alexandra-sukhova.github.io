@@ -1,0 +1,178 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alexandra Sukhova</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.grey-orange.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #view-source {
+            position: fixed;
+            display: block;
+            right: 0;
+            bottom: 0;
+            margin-right: 40px;
+            margin-bottom: 40px;
+            z-index: 900;
+        }
+    </style>
+</head>
+<body>
+<div class="alexandra-web mdl-layout mdl-js-layout has-drawer is-upgraded">
+    <main class="mdl-layout__content">
+        <!-- div class="alexandra-web__posts mdl-grid">
+            <div class="mdl-card tigra mdl-cell mdl-cell--8-col">
+                <div class="mdl-card__media mdl-color-text--grey-300">
+                    <h3><a href="entry.html">Люблю художественный процесс...</a></h3>
+                </div>
+                <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+
+                    <div>
+                        <strong>
+                            <h4>..с малых лет.</h4>
+                        </strong>
+
+                    </div>
+                </div>
+            </div>
+            <div class="mdl-card something-else mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop">
+                <button class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent">
+                    <i class="material-icons mdl-color-text--white" role="presentation">add</i>
+                    <span class="visuallyhidden">add</span>
+                </button>
+                <div class="mdl-card__media mdl-color--white mdl-color-text--grey-300">
+                    <img src="images/logo.png">
+                    +1,337
+                </div>
+                <div class="mdl-card__supporting-text meta meta--fill mdl-color-text--grey-300">
+                    <div>
+                        <strong>The Newist</strong>
+                    </div>
+                    <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="menubtn">
+                        <li class="mdl-menu__item">About</li>
+                        <li class="mdl-menu__item">Message</li>
+                        <li class="mdl-menu__item">Favorite</li>
+                        <li class="mdl-menu__item">Search</li>
+                    </ul>
+                    <button id="menubtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                        <i class="material-icons" role="presentation">more_vert</i>
+                        <span class="visuallyhidden">show menu</span>
+                    </button>
+                </div>
+            </div>
+            <div class="mdl-card on-the-road-again mdl-cell mdl-cell--12-col">
+                <div class="mdl-card__media mdl-color-text--grey-300">
+                    <h3><a href="entry.html">Легко обучаюсь новому</a></h3>
+                </div>
+                <div class="mdl-color-text--grey-600 mdl-card__supporting-text">
+                    Как хорошо известно,дизайн постоянно растет и развивается,не все знания могут предоставить учебные
+                    завидениях,поэтому в моей практике часто проходит самообучение.Например,во время учебы дают азы,а
+                    глубину знаний всегда приходится черпать самим.Обучилась и продолжаю развиваться в программах: ADOPE
+                </div>
+                <div class="mdl-card__supporting-text meta mdl-color-text--grey-300">
+                </div>
+            </div>
+            <div class="mdl-card amazing mdl-cell mdl-cell--12-col">
+                <div class="mdl-card__title mdl-color-text--grey-300">
+                    <h3 class="quote"><a href="entry.html">Постоянное развитие-ключевой момент в самопознание.</a></h3>
+                </div>
+                <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+                    Нельзя никогда останавливаться в развитие своих знаний,их может стать слишком мало.
+                </div>
+                <div class="mdl-card__supporting-text meta mdl-color-text--grey-300">
+
+                </div>
+            </div>
+            <div class="mdl-card shopping mdl-cell mdl-cell--12-col">
+                <div class="mdl-card__media mdl-color-text--grey-200">
+                    <h3><a href="entry.html">Ищу вдохновения в простых вещях</a></h3>
+                </div>
+                <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+                    <p>Люблю черпать вдохновение в выставках,путешествиях,театрах,кино,обществе,быте.</p>
+                </div>
+                <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+
+                </div>
+            </div>
+            <nav class="demo-nav mdl-cell mdl-cell--12-col">
+                <div class="section-spacer"></div>
+                <a href="entry.html" class="demo-nav__button" title="show more">
+                    More
+                    <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                        <i class="material-icons" role="presentation">arrow_forward</i>
+                    </button>
+                </a>
+            </nav>
+        </div -->
+        <!-- footer class="mdl-mini-footer">
+            <div class="mdl-mini-footer--left-section">
+                <button class="mdl-mini-footer--social-btn social-btn social-btn__twitter">
+                    <span class="visuallyhidden">Twitter</span>
+                </button>
+                <button class="mdl-mini-footer--social-btn social-btn social-btn__blogger">
+                    <span class="visuallyhidden">Facebook</span>
+                </button>
+                <button class="mdl-mini-footer--social-btn social-btn social-btn__gplus">
+                    <span class="visuallyhidden">Google Plus</span>
+                </button>
+            </div>
+            <div class="mdl-mini-footer--right-section">
+                <button class="mdl-mini-footer--social-btn social-btn__share">
+                    <i class="material-icons" role="presentation">share</i>
+                    <span class="visuallyhidden">share</span>
+                </button>
+            </div>
+        </footer -->
+    </main>
+    <div class="mdl-layout__obfuscator"></div>
+</div>
+<!-- a href="https://github.com/google/material-design-lite/blob/master/templates/blog/" target="_blank" id="view-source"
+   class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--white">View
+    Source</a -->
+<script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+</body>
+<script>
+    Array.prototype.forEach.call(document.querySelectorAll('.mdl-card__media'), function (el) {
+        var link = el.querySelector('a');
+        if (!link) {
+            return;
+        }
+        var target = link.getAttribute('href');
+        if (!target) {
+            return;
+        }
+        el.addEventListener('click', function () {
+            location.href = target;
+        });
+    });
+</script>
+</html>
