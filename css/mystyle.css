@@ -11,15 +11,16 @@
 .blocknote-body {
     background-color: #faf9f5;
     min-height: 700px;
+    padding-top: 20px;
 }
 
 .dialog {
-    width: 133px;
+    width: 150px;
     background-repeat: no-repeat;
-    background-image: url("../img/thumbnails/dialog.png");
+    background-image: url("../img/dialog.png");
     height: 100px;
     margin: inherit;
-    padding-top: 35px;
+    padding-top: 32px;
     text-align: center;
     font-size: 16pt;
     font-weight: bold;
