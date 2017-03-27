@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="css/zocial.css">
-    <link rel="stylesheet" href="css/lightbox.css">
+    <!-- link rel="stylesheet" href="css/jquery.fancybox.min.css" -->
+    <link rel="stylesheet" type="text/css" href="css/photoswipe.css">
+    <link rel="stylesheet" type="text/css" href="css/default-skin.css">
     <link rel="stylesheet" type="text/css" href="css/mystyle.css">
 
 </head>
@@ -54,12 +56,12 @@
                     <div class="col-md-4 text-center">
 
 
-                        <a href="img/landings/landing1.png" data-lightbox="grafica">
+                        <a href="img/landings/landing1.png" data-size="1600x1600" data-author="Alexandra Sukhova" class="portfolio__img--main">
                             <img src="img/thumbnails/landings/landing1.png" class="img-responsive img-thumbnail"/>
 
                         </a>
 
-                        <a href="img/grafika/saitic.png" data-lightbox="grafica">
+                        <a href="img/grafika/saitic.png" data-size="1600x1600" data-author="Alexandra Sukhova" >
                             <img src="img/thumbnails/grafika/saitic.png" class="img-responsive img-thumbnail"/>
 
                         </a>
@@ -68,20 +70,20 @@
 
                     <div class="col-md-4 text-center">
 
-                        <a href="img/landings/verstkalanding1.png" data-lightbox="grafica">
+                        <a href="img/landings/verstkalanding1.png" data-size="1600x1600" data-author="Alexandra Sukhova" >
                             <img src="img/thumbnails/landings/verstkalanding1.png"
                                  class="img-responsive img-thumbnail"/>
 
                         </a>
 
 
-                        <a href="img/landings/landing4.png" data-lightbox="grafica">
+                        <a href="img/landings/landing4.png" data-size="1600x1600" data-author="Alexandra Sukhova" >
                             <img src="img/thumbnails/landings/landing4.png" class="img-responsive img-thumbnail"/>
 
                         </a>
 
 
-                        <a href="img/bookmen.png" data-lightbox="grafica">
+                        <a href="img/bookmen.png" data-size="1600x1600" data-author="Alexandra Sukhova" >
                             <img src="img/thumbnails/verstka/bookmen.png" class="img-responsive img-thumbnail"/>
 
                         </a>
@@ -93,33 +95,33 @@
                     <div class="col-md-4 text-center">
 
 
-                        <a href="img/landings/verstkalanding2.png" data-lightbox="grafica">
+                        <a href="img/landings/verstkalanding2.png" data-size="1600x1600" data-author="Alexandra Sukhova" >
                             <img src="img/thumbnails/landings/verstkalanding2.png"
                                  class="img-responsive img-thumbnail"/>
 
                         </a>
 
-                        <a href="img/landings/landing6.png" data-lightbox="grafica">
+                        <a href="img/landings/landing6.png" data-size="1600x1600" data-author="Alexandra Sukhova" >
                             <img src="img/thumbnails/landings/landing6.png" class="img-responsive img-thumbnail"/>
 
                         </a>
 
-                        <a href="img/daritosait.png" data-lightbox="grafica">
+                        <a href="img/daritosait.png" data-size="1600x1600" data-author="Alexandra Sukhova" >
                             <img src="img/thumbnails/daritosait.png" class="img-responsive img-thumbnail"/>
 
                         </a>
 
-                        <a href="img/grafika/estada.png" data-lightbox="grafica">
+                        <a href="img/grafika/estada.png" data-size="1600x1600" data-author="Alexandra Sukhova" >
                             <img src="img/thumbnails/grafika/estada.png" class="img-responsive img-thumbnail"/>
 
                         </a>
 
-                        <a href="img/grafika/maketnout.png" data-lightbox="grafica">
+                        <a href="img/grafika/maketnout.png" data-size="1600x1600" data-author="Alexandra Sukhova" >
                             <img src="img/thumbnails/grafika/maketnout.png" class="img-responsive img-thumbnail"/>
 
                         </a>
 
-                        <a href="img/grafika/twomacgreen.png" data-lightbox="grafica">
+                        <a href="img/grafika/twomacgreen.png" data-size="1600x1600" data-author="Alexandra Sukhova" >
                             <img src="img/thumbnails/grafika/twomacgreen.png" class="img-responsive img-thumbnail"/>
 
                         </a>
@@ -195,10 +197,71 @@
 
 </div>
 
+<div id="gallery" class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+
+    <div class="pswp__scroll-wrap">
+
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <div class="pswp__loading-indicator"><div class="pswp__loading-indicator__line"></div></div> -->
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip">
+                    <!-- <a href="#" class="pswp__share--facebook"></a>
+                    <a href="#" class="pswp__share--twitter"></a>
+                    <a href="#" class="pswp__share--pinterest"></a>
+                    <a href="#" download class="pswp__share--download"></a> -->
+                </div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+
 <script src="js/jquery.min.js"></script>
 <script src="js/common.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/lightbox.min.js"></script>
+<script src="js/photoswipe.js"></script>
+<script src="js/photoswipe-ui-default.js"></script>
+<script src="js/photoswipe-common.js"></script>
 
 </body>
 </html>
