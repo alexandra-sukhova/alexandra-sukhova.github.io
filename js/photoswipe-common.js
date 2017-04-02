@@ -1,7 +1,7 @@
 (function () {
     var initPhotoSwipeFromDOM = function (gallerySelector) {
         var parseThumbnailElements = function (el) {
-            var thumbElements = el.childNodes,
+            var thumbElements = el.querySelectorAll('a'),
                 numNodes = thumbElements.length,
                 items = [],
                 el,
@@ -65,8 +65,8 @@
             if (!clickedListItem) {
                 return;
             }
-            var clickedGallery = clickedListItem.parentNode;
-            var childNodes = clickedListItem.parentNode.childNodes,
+            var clickedGallery = clickedListItem.parentNode.parentNode;
+            var childNodes = clickedGallery.querySelectorAll('a'),
                 numChildNodes = childNodes.length,
                 nodeIndex = 0,
                 index;
